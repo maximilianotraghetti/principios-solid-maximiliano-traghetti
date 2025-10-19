@@ -7,7 +7,7 @@ const contextDiscount = new ContextDiscount(new RegularDiscount());
 console.log(`Descuento para cliente regular ${contextDiscount.getDiscount()}%`);
 
 contextDiscount.setStrategy(new VipDiscount());
-console.log(`Descuento para cliente vip ${contextDiscount.getDiscount}%`);
+console.log(`Descuento para cliente vip ${contextDiscount.getDiscount()}%`);
 
 contextDiscount.setStrategy(new StudentDiscount());
-console.log(`Descuento para estudiante ${contextDiscount.getDiscount}%`);
+console.log(`Descuento para estudiante ${contextDiscount.getDiscount()}%`);
