@@ -1,1 +1,3 @@
-export interface IBird {}
+export interface IBird {
+    eat(): void;
+}

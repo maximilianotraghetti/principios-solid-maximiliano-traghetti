@@ -4,4 +4,7 @@ export class Penguin implements IBird {
   swim(): void {
     console.log("El pinguino esta nadando.");
   }
+  eat(): void {
+    console.log("El pinguino esta comiendo.");
+  }
 }

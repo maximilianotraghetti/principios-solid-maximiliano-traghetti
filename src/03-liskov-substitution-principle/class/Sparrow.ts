@@ -5,4 +5,7 @@ export class Sparrow implements IBird, IFlying {
   fly(): void {
     console.log("El gorrión esta volando");
   }
+  eat(): void {
+    console.log("El gorrión esta comiendo.");
+  }
 }
